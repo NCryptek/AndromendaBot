@@ -7,7 +7,7 @@ client = discord.Client()
 
 def get_inspire():
 
-  
+  #komentarz
 @client.event
 async def on_ready():
     print('we have logged {0.user}'.format(client))
