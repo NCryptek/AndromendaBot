@@ -30,5 +30,13 @@ async def on_message(message):
     if message.content.startswith(bot_help):
       quote=get_help()
       await message.channel.send(quote)
+    if message.content.startswith(bot_artillery):
+      quote="https://youtu.be/GW6GSa14xXI"
+      await message.channel.send(quote)
+    if message.content.startswith(bot_shame):
+      quote=message.content
+      quote=quote[11:]
+      await message.channel.send(quote)
+
 
 client.run(os.environ['TOKEN'])
