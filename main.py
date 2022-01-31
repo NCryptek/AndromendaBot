@@ -2,7 +2,7 @@ import os
 import discord
 import requests
 import json
-from funkjce import *
+from funkcje import *
 
 
 client = discord.Client()
