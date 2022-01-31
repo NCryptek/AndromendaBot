@@ -9,10 +9,6 @@ def get_inspire():
   
 
 @client.event
-async def on_ready():
-    print('we have logged {0.user}'.format(client))
-
-@client.event
 async def on_message(message):
     if message.author == client.user:
       return
