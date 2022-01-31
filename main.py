@@ -6,7 +6,7 @@ import json
 client = discord.Client()
 
 def get_inspire():
-
+#ayo
   
 @client.event
 async def on_ready():
